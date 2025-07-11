@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tic-tac-toe</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="another.css"> -->
+</head>
+<body>
+    <div class="previous hide">
+        <div class="starting-text hide">
+            <h2>Tic Tac Toe</h2>
+            <p class="">Let's play a game </p>
+            <div class="player-btn">
+            <button type="button" class="start">Two players</button>
+            <button type="button" class="one-player">One player</button>
+            </div>
+        </div>
+        <div class="display-boxes hide">
+            <div class="game">
+                <button type="button" class="box1">O</button>
+                <button type="button" class="box1"></button>
+                <button type="button" class="box1"></button>
+                <button type="button" class="box1">O</button>
+                <button type="button" class="box1">X</button>
+                <button type="button" class="box1"></button>
+                <button type="button" class="box1">O</button>
+                <button type="button" class="box1"></button>
+                <button type="button" class="box1">X</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="all new">
+    <div class="outer">
+    <div class="msg-container hide">
+        <p id="msg"> Winner</p>
+        <button type="button" class="new-game">New game</button>
+    </div>
+    <p class="chose-para hide">Choose X or O</p>
+    <div class="choseOptions hide">
+        <button type="button" class="choseBtn1 ">X</button>
+        <button type="button" class="choseBtn2 ">O</button>
+    </div>
+    <div class="first-second hide">
+        <p class="chose-1-2 hide">Chose your Turn  </p>
+        <button type="button" class="first-btn hide ">First</button>
+        <button type="button" class="second-btn hide">Second</button>
+    </div>
+    </div>
+    <div class="container extra hide">
+        <div class="game">
+            <button type="button" class="box"></button>
+            <button type="button" class="box"></button>
+            <button type="button" class="box"></button>
+            <button type="button" class="box"></button>
+            <button type="button" class="box"></button>
+            <button type="button" class="box"></button>
+            <button type="button" class="box"></button>
+            <button type="button" class="box"></button>
+            <button type="button" class="box"></button>
+        </div>
+    </div>
+    <div class="reset-btn hide">
+    <button type="button" class="reset-game hide">reset game</button>
+    </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
